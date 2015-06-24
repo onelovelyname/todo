@@ -41,7 +41,6 @@ app.TodoView = Backbone.View.extend({
 
   togglecompleted: function() {
     this.model.toggle();
-    console.log('this.$el', this.$el);
   },
 
   edit: function() {
